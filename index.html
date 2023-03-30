@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title></title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-IMAGE: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfbJyeg4aYR4dP6l2QadD2DJRD_MlvrUHhg&usqp=CAU');
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background-IMAGE: url('https://www.colorado.edu/brand/sites/default/files/styles/large_square_thumbnail/public/callout/color-gold.png?itok=NHNOM7mh');
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-IMAGE: url('https://plainbackground.com/plain1024/76472d.png');
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>Justen Torres</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">LINK 1</a></li>
+      <li><a href="#">LINK 2</a></li>
+      <li><a href="#">LINK 3</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>My Life</h1>
+    <p>I love to play video games with my friends and my cousin.I also like to eat food cause it taste good I even learn how to cook the other day.</p>
+    <p>SOmething about myself is that I have Brown wavy or curly hair idk, another thing is that I am kind,caring, and I sometimes have anger issues</p>
+  </article>
+</section>
+
+<footer>
+  <p>Justen Torres              and my email is                jtorres3@mlvrcs.org!</p>
+</footer>
+
+</body>
+</html>
+
+
